@@ -239,7 +239,7 @@ const handleDeteleInner = (obj: networkLogin) => {
 <template>
   <div class="flex h-full bg-white text-base">
     <div class="w-1/2 bg-login-big bg-no-repeat bg-center bg-100%"></div>
-    <div class="w-1/2" style="background-color: red">
+    <div class="w-1/2">
       <div class="flex mt-3 mb-15vh h-10 items-center">
         <div v-show="createStep > 0" class="ml-20px">
           <el-page-header
@@ -268,7 +268,7 @@ const handleDeteleInner = (obj: networkLogin) => {
           </div>
           <!-- i18n change -->
           <el-dropdown @command="handleCommandLang">
-            <span class="ml-2">
+            <span class="ml-2 text-xs xl:text-xs lg:text-sm">
               {{ strLang }}
               <el-icon class="el-icon--right"><arrow-down /></el-icon>
             </span>

@@ -1,0 +1,91 @@
+{
+  "build": {
+    "beforeDevCommand": "yarn dev",
+    "beforeBuildCommand": "yarn build",
+    "devPath": "http://localhost:86",
+    "distDir": "../dist",
+    "withGlobalTauri": false
+  },
+  "package": {
+    "productName": "Jutkey Wallet",
+    "version": "1.0.0"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": true
+    },
+    "bundle": {
+      "active": true,
+      "category": "DeveloperTool",
+      "copyright": "",
+      "deb": {
+        "depends": []
+      },
+      "externalBin": [],
+      "icon": [
+        "icons/logo-32.png",
+        "icons/logo-128.png",
+        "icons/logo-256.png",
+        "icons/icon.icns",
+        "icons/favicon.ico"
+      ],
+      "identifier": "com.tauri.build",
+      "longDescription": "",
+      "macOS": {
+        "entitlements": null,
+        "exceptionDomain": "",
+        "frameworks": [],
+        "providerShortName": null,
+        "signingIdentity": null
+      },
+      "resources": [],
+      "shortDescription": "",
+      "targets": "all",
+      "windows": {
+        "certificateThumbprint": null,
+        "digestAlgorithm": "sha256",
+        "timestampUrl": ""
+      }
+    },
+    "security": {
+      "csp": null
+    },
+    "updater": {
+      "active": true,
+      "endpoints": [
+        "https://github.com/renleiabc/tauri-app/releases/download/updater/update.json"
+      ],
+      "dialog": false,
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEZCNEUxM0E1MTlGRDMxRUMKUldUc01mMFpwUk5PKzNtU0ZZWTE4NGNaTVhCL3Zydy8wQStKODJ4eS9BVEgyY216Z2lvcWZndGkK"
+    },
+    "windows": [
+      {
+        "fullscreen": false,
+        "height": 600,
+        "resizable": true,
+        "title": "Jutkey Wallet",
+        "width": 1200,
+        "center": true,
+        "minWidth": 1200,
+        "minHeight": 600,
+        "alwaysOnTop": true,
+        "decorations": true,
+        "visible": false
+      },
+      {
+        "fullscreen": false,
+        "height": 600,
+        "resizable": true,
+        "title": "Jutkey Wallet",
+        "width": 1200,
+        "center": true,
+        "minWidth": 1200,
+        "minHeight": 600,
+        "alwaysOnTop": true,
+        "decorations": false,
+        "url": "/splashscreen.html",
+        "label": "splashscreen"
+      }
+    ]
+  }
+}

@@ -8,7 +8,7 @@
   },
   "package": {
     "productName": "Jutkey Wallet",
-    "version": "1.0.2"
+    "version": "1.0.3"
   },
   "tauri": {
     "allowlist": {
@@ -68,7 +68,6 @@
         "center": true,
         "minWidth": 1200,
         "minHeight": 600,
-        "alwaysOnTop": true,
         "decorations": true,
         "visible": false
       },
@@ -81,7 +80,6 @@
         "center": true,
         "minWidth": 1200,
         "minHeight": 600,
-        "alwaysOnTop": true,
         "decorations": false,
         "url": "/splashscreen.html",
         "label": "splashscreen"

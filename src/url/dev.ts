@@ -1,8 +1,8 @@
 export default {
-  nodeserver: 'http://192.168.1.191:7079',
-  // nodeserver: 'http://192.168.1.85:7079',
-  '//notes 2': 'back-up services',
+  '//notes 0': 'main node',
+  nodeserver: 'https://testnet-sg-34-87-136-38.ibax.io:8079',
+  '//notes 1': 'back-up services',
   walletserver: 'http://192.168.1.191:7023',
-  '//notes 5': 'browser address',
-  blockexplorer: 'http://192.168.1.88:85'
+  '//notes 2': 'browser address',
+  blockexplorer: 'https://testscan.ibax.network'
 };

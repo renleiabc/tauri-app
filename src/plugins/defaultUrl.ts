@@ -2,23 +2,23 @@ export default [
   {
     id: 1,
     name: 'Default-1',
-    ip: 'http://192.168.1.191:7079',
+    ip: 'https://testnet-sg-34-87-136-38.ibax.io:8079',
     uid: '',
     isAdd: false,
     networkId: 1,
     speed: 'error',
     status: false,
     onLine: false
-  }
-  /* {
+  },
+  {
     id: 2,
-    node: 2,
-    name: 'Default-2',
-    ip: 'http://192.168.1.191:7179',
-    uuid: 'default-2',
+    name: 'Default-1',
+    ip: 'https://testnet-us-34-86-177-19.ibax.io:8079',
+    uid: '',
     isAdd: false,
+    networkId: 2,
     speed: 'error',
     status: false,
     onLine: false
-  } */
+  }
 ];
